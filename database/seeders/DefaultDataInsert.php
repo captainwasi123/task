@@ -196,6 +196,176 @@ class DefaultDataInsert extends Seeder
                         'is_right' => 1
                     ]
                 ]
+            ],[
+                'title' => 'Who developed jQuery, and in which year it was first released?',
+                'options' =>[ 
+                    [
+                        'title' => 'John Richard in 2001',
+                        'is_right' => null
+                    ],[
+                        'title' => 'Mark Bensman in 2004',
+                        'is_right' => null
+                    ],[
+                        'title' => 'John Resig in 2006',
+                        'is_right' => 1
+                    ],[
+                        'title' => 'None of the above',
+                        'is_right' => null
+                    ]
+                ]
+            ],[
+                'title' => 'jQuery is a -',
+                'options' =>[ 
+                    [
+                        'title' => 'JavaScript method',
+                        'is_right' => null
+                    ],[
+                        'title' => 'JavaScript library',
+                        'is_right' => 1
+                    ],[
+                        'title' => 'JSON library',
+                        'is_right' => null
+                    ],[
+                        'title' => 'PHP method',
+                        'is_right' => null
+                    ]
+                ]
+            ],[
+                'title' => 'Which of the following sign is used as a shortcut for jQuery?',
+                'options' =>[ 
+                    [
+                        'title' => 'the % sign',
+                        'is_right' => null
+                    ],[
+                        'title' => 'the & sign',
+                        'is_right' => null
+                    ],[
+                        'title' => 'the $ sign',
+                        'is_right' => 1
+                    ],[
+                        'title' => 'the @ sign',
+                        'is_right' => null
+                    ]
+                ]
+            ],[
+                'title' => '$(this) in jQuery is used when -',
+                'options' =>[ 
+                    [
+                        'title' => 'an HTML element references the entire document',
+                        'is_right' => null
+                    ],[
+                        'title' => 'an HTML element references its own action',
+                        'is_right' => 1
+                    ],[
+                        'title' => 'an HTML element references the action of its parent element',
+                        'is_right' => null
+                    ],[
+                        'title' => 'All of the above',
+                        'is_right' => null
+                    ]
+                ]
+            ],[
+                'title' => 'Which of the following jQuery method is used to hide the selected elements?',
+                'options' =>[ 
+                    [
+                        'title' => 'The hidden() method',
+                        'is_right' => null
+                    ],[
+                        'title' => 'The hide() method',
+                        'is_right' => 1
+                    ],[
+                        'title' => 'The visible(false) method',
+                        'is_right' => null
+                    ],[
+                        'title' => 'The display(none) method',
+                        'is_right' => null
+                    ]
+                ]
+            ],[
+                'title' => 'HTML stands for -',
+                'options' =>[ 
+                    [
+                        'title' => 'HighText Machine Language',
+                        'is_right' => null
+                    ],[
+                        'title' => 'HyperText and links Markup Language',
+                        'is_right' => null
+                    ],[
+                        'title' => 'HyperText Markup Language',
+                        'is_right' => 1
+                    ],[
+                        'title' => 'None of these',
+                        'is_right' => null
+                    ]
+                ]
+            ],[
+                'title' => 'The correct sequence of HTML tags for starting a webpage is -',
+                'options' =>[ 
+                    [
+                        'title' => 'Head, Title, HTML, body',
+                        'is_right' => null
+                    ],[
+                        'title' => 'HTML, Body, Title, Head',
+                        'is_right' => null
+                    ],[
+                        'title' => 'HTML, Head, Title, Body',
+                        'is_right' => null
+                    ],[
+                        'title' => 'HTML, Head, Title, Body',
+                        'is_right' => 1
+                    ]
+                ]
+            ],[
+                'title' => 'Which of the following element is responsible for making the text bold in HTML?',
+                'options' =>[ 
+                    [
+                        'title' => '<pre>',
+                        'is_right' => null
+                    ],[
+                        'title' => '<a>',
+                        'is_right' => null
+                    ],[
+                        'title' => '<b>',
+                        'is_right' => 1
+                    ],[
+                        'title' => '<br>',
+                        'is_right' => null
+                    ]
+                ]
+            ],[
+                'title' => 'Which of the following tag is used for inserting the largest heading in HTML?',
+                'options' =>[ 
+                    [
+                        'title' => '<h3>',
+                        'is_right' => null
+                    ],[
+                        'title' => '<h1>',
+                        'is_right' => 1
+                    ],[
+                        'title' => '<h5>',
+                        'is_right' => null
+                    ],[
+                        'title' => '<h6>',
+                        'is_right' => null
+                    ]
+                ]
+            ],[
+                'title' => 'Which of the following tag is used to insert a line-break in HTML?',
+                'options' =>[ 
+                    [
+                        'title' => '<br>',
+                        'is_right' => 1
+                    ],[
+                        'title' => '<a>',
+                        'is_right' => null
+                    ],[
+                        'title' => '<pre>',
+                        'is_right' => null
+                    ],[
+                        'title' => '<b>',
+                        'is_right' => null
+                    ]
+                ]
             ]
         ];
 
