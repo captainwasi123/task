@@ -16,3 +16,6 @@ use App\Http\Controllers\mainController;
 
 Route::get('/', [mainController::class, 'index']);
 Route::get('firstStep/{id}', [mainController::class, 'firstStep']);
+Route::post('skipStep', [mainController::class, 'skipStep']);
+Route::post('nextStep', [mainController::class, 'nextStep']);
+Route::post('getResult', [mainController::class, 'getResult']);
